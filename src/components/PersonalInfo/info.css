@@ -1,0 +1,11 @@
+.info-box {
+  width: 400px;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  color: antiquewhite;
+}
+
+.me-8bit:hover {
+  opacity: 0.8;
+  transition: 0.2s ease;
+  cursor: pointer;
+}

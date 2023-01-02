@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import PersonalInfo from "./components/PersonalInfo/Personal_Info";
+import Goggles from "./components/Experts/Goggles";
+import React from "react";
+import { useState } from "react";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
+  const [showGoggles, setShowGoggles] = useState(true);
+  const [showStory, setShowStory] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div className="display-box">
+      <div>
+        <button
+          className="project-button"
+          onClick={() => {
+            setShowGoggles(!showGoggles);
+          }}
         >
-          Learn React
-        </a>
-      </header>
+          Expert Goggles
+        </button>
+        <button
+          className="project-button"
+          onClick={() => {
+            setShowStory(!showStory);
+          }}
+        >
+          StoryBored
+        </button>
+      </div>
+      <PersonalInfo />
+      {showGoggles && <Goggles />}
     </div>
   );
 }
