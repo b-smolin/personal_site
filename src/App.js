@@ -3,19 +3,23 @@ import Goggles from "./components/Experts/Goggles";
 import Story from "./components/Story/Story";
 import React from "react";
 import { Helmet } from "react-helmet";
-import { useState } from "react";
+import { useState, createContext } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import ProjectNav from "./components/ProjectNav/ProjectNav";
 
 //TODO:
-//refactor project buttons into their own components
 //change color when selected
 //fix styling for buttons
 //improve copy
+//add links to popups
 
 function App() {
-  const [showGoggles, setShowGoggles] = useState(true);
-  const [showStory, setShowStory] = useState(false);
+  const [focusedProject, setFocusedProject] = useState("goggles");
+
+  const changeFocus = (focus) => {
+    setFocusedProject(focus);
+  };
 
   return (
     <div className="site-container">
@@ -25,28 +29,11 @@ function App() {
       </Helmet>
       <div className="display-box">
         <div>
-          <button
-            className="project-button"
-            onClick={() => {
-              setShowGoggles(true);
-              setShowStory(false);
-            }}
-          >
-            Expert Goggles
-          </button>
-          <button
-            className="project-button"
-            onClick={() => {
-              setShowGoggles(false);
-              setShowStory(true);
-            }}
-          >
-            StoryBored
-          </button>
+          <ProjectNav changeFocus={changeFocus} active={focusedProject} />
         </div>
         <PersonalInfo />
-        {showGoggles && <Goggles />}
-        {showStory && <Story />}
+        {focusedProject === "goggles" && <Goggles />}
+        {focusedProject === "story" && <Story />}
       </div>
     </div>
   );

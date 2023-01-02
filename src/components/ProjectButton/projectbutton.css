@@ -1,0 +1,9 @@
+.project-button {
+  border-radius: 9999px;
+  font-size: 18;
+  height: 30px;
+  text-align: center;
+  background-color: transparent;
+  color: whitesmoke;
+  border-width: 1px;
+}
