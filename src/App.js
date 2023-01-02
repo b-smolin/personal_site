@@ -3,13 +3,12 @@ import Goggles from "./components/Experts/Goggles";
 import Story from "./components/Story/Story";
 import React from "react";
 import { Helmet } from "react-helmet";
-import { useState, createContext } from "react";
+import { useState } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ProjectNav from "./components/ProjectNav/ProjectNav";
 
 //TODO:
-//change color when selected
 //fix styling for buttons
 //improve copy
 //add links to popups

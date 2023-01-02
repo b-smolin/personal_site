@@ -6,7 +6,7 @@ const ProjectNav = ({ changeFocus, active }) => {
   const descriptions = ["Expert Goggles", "StoryBored"];
 
   return (
-    <div>
+    <div className="nav-buttons">
       {projects.map((project, i) => {
         return <ProjectButton key={project} changeFocus={changeFocus} active={active === project} value={project} name={descriptions[i]} />;
       })}

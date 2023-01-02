@@ -1,9 +1,31 @@
-.project-button {
+.inactive-button {
   border-radius: 9999px;
   font-size: 18;
   height: 30px;
   text-align: center;
   background-color: transparent;
-  color: whitesmoke;
+  color: #ffffff;
   border-width: 1px;
+}
+
+.inactive-button:hover {
+  background-color: #221724;
+  transition: 0.2s ease;
+  opacity: 0.9;
+  color: #ffffff;
+}
+
+.active-button {
+  border-radius: 9999px;
+  font-size: 18;
+  height: 30px;
+  text-align: center;
+  color: #121417;
+  background-color: #ffffff;
+  border-width: 1px;
+}
+
+.active-button:hover {
+  transition: 0.2s ease;
+  opacity: 0.9;
 }

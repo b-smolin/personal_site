@@ -4,6 +4,8 @@ import { Popover } from "react-tiny-popover";
 import "bootstrap/dist/css/bootstrap.css";
 import "./info.css";
 import Me from "./smol-green-16bit.png";
+import GitLogo from "./github-mark-white.png";
+import LiLogo from "./In-Blue-Logo.png";
 
 const PersonalInfo = () => {
   const [showInfo, setShowInfo] = useState(false);
@@ -46,7 +48,14 @@ const PersonalInfo = () => {
         onClickOutside={() => setShowLinks(false)}
         content={() => (
           <div className="popup">
-            <p>stuff about my websites here</p>
+            <button className="offsite-nav" href="https://github.com/b-smolin">
+              <img src={GitLogo} alt="GitHub" />
+              GitHub
+            </button>
+            <button className="offsite-nav" href="https://www.linkedin.com/in/benjamin-smolin-06722a101/">
+              <img src={LiLogo} alt="LinkedIn" />
+              LinkedIn
+            </button>
           </div>
         )}
       >

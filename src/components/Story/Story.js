@@ -10,7 +10,7 @@ const Story = () => {
       <div className="demo-container"></div>
       <img src={StoryHighlight} alt="pciture of the storybored project"></img>
       <div>
-        <a className="header-link" href="https://stevemacn.github.io/portfolio-expert-goggles/">
+        <a className="header-link" href="https://github.com/b-smolin/story_pages">
           Project GitHub
         </a>
       </div>
