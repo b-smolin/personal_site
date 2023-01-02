@@ -1,5 +1,6 @@
 import PersonalInfo from "./components/PersonalInfo/Personal_Info";
 import Goggles from "./components/Experts/Goggles";
+import Story from "./components/Story/Story";
 import React from "react";
 import { useState } from "react";
 import "./App.css";
@@ -15,7 +16,8 @@ function App() {
         <button
           className="project-button"
           onClick={() => {
-            setShowGoggles(!showGoggles);
+            setShowGoggles(true);
+            setShowStory(false);
           }}
         >
           Expert Goggles
@@ -23,7 +25,8 @@ function App() {
         <button
           className="project-button"
           onClick={() => {
-            setShowStory(!showStory);
+            setShowGoggles(false);
+            setShowStory(true);
           }}
         >
           StoryBored
@@ -31,6 +34,7 @@ function App() {
       </div>
       <PersonalInfo />
       {showGoggles && <Goggles />}
+      {showStory && <Story />}
     </div>
   );
 }

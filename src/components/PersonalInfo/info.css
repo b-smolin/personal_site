@@ -1,11 +1,24 @@
 .info-box {
   width: 400px;
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-  color: antiquewhite;
+  font-size: 1.25em;
+  color: whitesmoke;
 }
 
 .me-8bit:hover {
   opacity: 0.8;
   transition: 0.2s ease;
   cursor: pointer;
+}
+
+.header-link {
+  color: rgb(34, 158, 34);
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+}
+
+.header-link:hover {
+  cursor: pointer;
+  color: rgb(98, 192, 35);
 }

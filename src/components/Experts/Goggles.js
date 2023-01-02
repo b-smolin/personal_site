@@ -17,6 +17,19 @@ const Goggles = () => {
           title="Embedded youtube"
         />
       </div>
+      <div>
+        <a className="header-link" href="https://stevemacn.github.io/portfolio-expert-goggles/">
+          Research Site
+        </a>{" "}
+        /{" "}
+        <a className="header-link" href="https://dl.acm.org/doi/abs/10.1145/3526114.3558627">
+          UIST 2022 Publication
+        </a>{" "}
+        /{" "}
+        <a className="header-link" href="https://github.com/Civic-Interactions-Lab/Expert-Goggles/tree/KNNClassifier">
+          Project GitHub
+        </a>
+      </div>
       <p>
         I was fortunate to be able to join Stephen MacNeil and the Temple HCI Lab to work on the Expert Goggles project, a Chrome extension that uses
         Machine Learning to classify data visualizations and present users with information on how to analyze and interpret them. It was a great
@@ -31,10 +44,7 @@ const Goggles = () => {
           enough to publish!
         </li>
         <li>Getting to work with and learn from ungrads, graduate students, and professors working in different disciplines</li>
-        <li>
-          Training our KNN model and iterating on weights until we achieved an accuracy comparable to complex neural network models. It was good
-          enough to publish!
-        </li>
+        <li>Working on a challening problem with the ultimate goal of using computers to help people learn</li>
       </ul>
       <h5>Frustrating things: </h5>
       <ul>
