@@ -5,10 +5,11 @@
   text-align: center;
   background-color: transparent;
   color: whitesmoke;
+  border-width: 1px;
 }
 
 .project-button:hover {
-  background-color: darkcyan;
+  background-color: rgb(2, 0, 139);
 }
 
 .App {

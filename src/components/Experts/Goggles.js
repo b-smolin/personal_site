@@ -31,8 +31,8 @@ const Goggles = () => {
         </a>
       </div>
       <p>
-        I was fortunate to be able to join Stephen MacNeil and the Temple HCI Lab to work on the Expert Goggles project, a Chrome extension that uses
-        Machine Learning to classify data visualizations and present users with information on how to analyze and interpret them. It was a great
+        I was fortunate to be able to join Dr. Stephen MacNeil and the Temple HCI Lab to work on the Expert Goggles project, a Chrome extension that
+        uses Machine Learning to classify data visualizations and present users with information on how to analyze and interpret them. It was a great
         experience! I was able to assist the team by training the KNN algorithm and adjusting its weights, reviewing and presenting relevant research
         papers, designing experiment plans and study designs, writing and editing papers for publication, and collaborating with other teams to
         improve our own research.
