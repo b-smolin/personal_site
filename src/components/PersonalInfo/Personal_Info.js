@@ -48,14 +48,12 @@ const PersonalInfo = () => {
         onClickOutside={() => setShowLinks(false)}
         content={() => (
           <div className="popup">
-            <button className="offsite-nav" href="https://github.com/b-smolin">
-              <img src={GitLogo} alt="GitHub" />
-              GitHub
-            </button>
-            <button className="offsite-nav" href="https://www.linkedin.com/in/benjamin-smolin-06722a101/">
-              <img src={LiLogo} alt="LinkedIn" />
-              LinkedIn
-            </button>
+            <a className="offsite-nav" href="https://github.com/b-smolin">
+              <img src={GitLogo} alt="GitHub" /> GitHub
+            </a>
+            <a className="offsite-nav" href="https://www.linkedin.com/in/benjamin-smolin-06722a101/">
+              <img src={LiLogo} alt="LinkedIn" /> LinkedIn
+            </a>
           </div>
         )}
       >

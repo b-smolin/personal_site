@@ -10,6 +10,25 @@
   transition: 0.2s ease;
 }
 
+.offsite-nav {
+  background-color: #071936;
+  float: left;
+  padding: 10px;
+  margin-left: 5px;
+  border-radius: 9999px;
+  margin-right: 5px;
+  border-style: solid;
+  border-color: rgb(34, 158, 34);
+  border-width: 1px;
+  color: white;
+  text-decoration: none;
+}
+
+.offsite-nav:hover {
+  background-color: #080736;
+  opacity: 0.9;
+}
+
 .popup {
   color: rgb(34, 158, 34);
   background-color: #121417;
@@ -21,6 +40,7 @@
   max-width: 450px;
   min-width: 100px;
   padding: 5px;
+  float: left;
 }
 
 .header-link {
