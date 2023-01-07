@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import { Popover } from "react-tiny-popover";
-import "bootstrap/dist/css/bootstrap.css";
 import "./info.css";
 import Me from "./smol-green-16bit.png";
 import GitLogo from "./github-mark-white.png";
@@ -13,7 +12,6 @@ const PersonalInfo = () => {
 
   return (
     <div className="info-box">
-      <img className="me-8bit" alt="" src={Me} width={"70px"} height={"70px"}></img>
       <Popover
         isOpen={showInfo}
         positions={["bottom", "right"]}
@@ -66,6 +64,7 @@ const PersonalInfo = () => {
           Contact Me
         </button>
       </Popover>
+      <img className="me-8bit" alt="" src={Me} width={"70px"} height={"70px"}></img>
     </div>
   );
 };

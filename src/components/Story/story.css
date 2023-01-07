@@ -10,13 +10,17 @@
 .story-info {
   font-family: "IBM Plex Mono";
   color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
 }
 
-.story-body {
-  max-width: 60%;
+.picture-box {
+  width: 100%;
+  height: auto;
 }
 
 .header-link {
-  color: rgb(34, 158, 34);
+  color: #00ff00;
   text-decoration: none;
 }

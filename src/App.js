@@ -27,10 +27,11 @@ function App() {
         <title>Smol Ben's Dev Hut</title>
       </Helmet>
       <div className="display-box">
+        <PersonalInfo />
         <div>
           <ProjectNav changeFocus={changeFocus} active={focusedProject} />
         </div>
-        <PersonalInfo />
+        <div></div>
         {focusedProject === "goggles" && <Goggles />}
         {focusedProject === "story" && <Story />}
       </div>
