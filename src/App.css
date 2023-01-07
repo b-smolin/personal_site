@@ -28,10 +28,9 @@
 .display-box {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 100%;
-  min-width: 100%;
-  min-height: 100%;
+  height: auto;
+  width: auto;
+  margin: 1.5% 1.5%;
   align-items: left;
   justify-content: space-evenly;
   row-gap: 10px;

@@ -6,17 +6,6 @@ const Goggles = () => {
     <div className="expert-article">
       <h1>Expert Goggles</h1>
       <h2>Using Machine Learning to translate everyday experiences into informal learning opportunities</h2>
-      <div className="video-responsive">
-        <iframe
-          width="853"
-          height="480"
-          src="https://www.youtube.com/embed/e0zKAgUssOI"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          title="Embedded youtube"
-        />
-      </div>
       <div>
         <a className="header-link" href="https://stevemacn.github.io/portfolio-expert-goggles/">
           Research Site
@@ -29,6 +18,17 @@ const Goggles = () => {
         <a className="header-link" href="https://github.com/Civic-Interactions-Lab/Expert-Goggles/tree/KNNClassifier">
           Project GitHub
         </a>
+      </div>
+      <div className="video-responsive">
+        <iframe
+          width="853"
+          height="480"
+          src="https://www.youtube.com/embed/e0zKAgUssOI"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          title="Embedded youtube"
+        />
       </div>
       <p>
         I was fortunate to be able to join Dr. Stephen MacNeil and the Temple HCI Lab to work on the Expert Goggles project, a Chrome extension that
