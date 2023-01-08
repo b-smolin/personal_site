@@ -9,9 +9,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import ProjectNav from "./components/ProjectNav/ProjectNav";
 
 //TODO:
-//fix styling for buttons
 //improve copy
-//add links to popups
+//add target="_blank" to outside links
+//popup alignment fix
+//contact me button styling
 
 function App() {
   const [focusedProject, setFocusedProject] = useState("goggles");

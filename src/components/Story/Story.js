@@ -18,7 +18,8 @@ const Story = () => {
         storyboarding application built with React and a node.js backend. It allows users to work in different rooms to draw on canvasses in
         real-time. Users can see what other users in their room draw and interact with their objects as well. The program supports freeform shapes,
         preset shapes, and text. Users can draw on up to three different frames and can see a small preview of the other frames as they are edited as
-        well.
+        well. Most of my code contributions revolved around canvas synchronization, socket communication, and drawing tools, but I had at least small
+        contributions in almost every area.
       </p>
       <div>
         <h5>Cool Things:</h5>
@@ -47,6 +48,10 @@ const Story = () => {
           <li>
             This was my first React project. There were definitely some growing pains and due to not knowing how things like useEffect and useState
             really work. I'm sure anyone with a few years experience would find a lot of flaws in the design (and I see some as well)!
+          </li>
+          <li>
+            We never came up with a good way to handle different screen sizes. It looks decent on average screen sizes but isn't responsive and looks
+            bad on many devices.
           </li>
         </ul>
       </div>
