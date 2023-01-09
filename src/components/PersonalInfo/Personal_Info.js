@@ -14,8 +14,8 @@ const PersonalInfo = () => {
     <div className="info-box">
       <Popover
         isOpen={showInfo}
-        positions={["bottom", "right"]}
-        align={"start"}
+        positions={["bottom", "left"]}
+        align={"middle"}
         padding={20}
         reposition={false}
         onClickOutside={() => setShowInfo(false)}
@@ -39,8 +39,8 @@ const PersonalInfo = () => {
       /{" "}
       <Popover
         isOpen={showLinks}
-        positions={["bottom", "right"]}
-        align={"start"}
+        positions={["bottom", "left"]}
+        align={"end"}
         padding={20}
         reposition={true}
         onClickOutside={() => setShowLinks(false)}

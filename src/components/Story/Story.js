@@ -8,7 +8,7 @@ const Story = () => {
       <h1>StoryPages</h1>
       <h4>A web application that allows users to collaborate in real-time on storyboard projects</h4>
       <div>
-        <a className="header-link" href="https://github.com/b-smolin/story_pages">
+        <a className="header-link" href="https://github.com/b-smolin/story_pages" target="_blank" rel="noreferrer">
           Project GitHub
         </a>
       </div>

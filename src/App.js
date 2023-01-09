@@ -10,9 +10,8 @@ import ProjectNav from "./components/ProjectNav/ProjectNav";
 
 //TODO:
 //improve copy
-//add target="_blank" to outside links
-//popup alignment fix
-//contact me button styling
+//host and link to storypages
+//mobile friendly styling
 
 function App() {
   const [focusedProject, setFocusedProject] = useState("goggles");
@@ -25,7 +24,9 @@ function App() {
     <div className="site-container">
       <Helmet>
         <meta charSet="utf-8"></meta>
-        <title>Smol Ben's Dev Hut</title>
+        <meta name="description" content="Portfolio for Ben Smolin"></meta>
+        <meta name="author" content="Ben Smolin"></meta>
+        <title>Ben Smolin's Work</title>
       </Helmet>
       <div className="display-box">
         <PersonalInfo />
