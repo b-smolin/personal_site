@@ -10,6 +10,10 @@ const Story = () => {
       <div>
         <a className="header-link" href="https://github.com/b-smolin/story_pages" target="_blank" rel="noreferrer">
           Project GitHub
+        </a>{" "}
+        /{" "}
+        <a className="header-link" href="http://45.79.174.22:3000/" target="_blank" rel="noreferrer">
+          Live Demo
         </a>
       </div>
       <img className="picture-box" src={StoryHighlight} alt="storybored canvas example"></img>
