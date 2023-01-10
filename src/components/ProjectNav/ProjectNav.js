@@ -3,7 +3,7 @@ import ProjectButton from "../ProjectButton/ProjectButton";
 
 const ProjectNav = ({ changeFocus, active }) => {
   const projects = ["goggles", "story"];
-  const descriptions = ["Expert Goggles", "StoryBored"];
+  const descriptions = ["Expert Goggles", "StoryPages"];
 
   return (
     <div className="nav-buttons">
