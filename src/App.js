@@ -1,16 +1,15 @@
 import PersonalInfo from "./components/PersonalInfo/Personal_Info";
 import Goggles from "./components/Experts/Goggles";
 import Story from "./components/Story/Story";
-import React from "react";
 import { Helmet } from "react-helmet";
-import { useState } from "react";
+import { React, useState } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ProjectNav from "./components/ProjectNav/ProjectNav";
+import Selfpromo from "./components/SelfPromo/selfpromo";
 
 //TODO:
 //improve copy
-//host and link to storypages
 //mobile friendly styling
 
 function App() {
@@ -19,6 +18,8 @@ function App() {
   const changeFocus = (focus) => {
     setFocusedProject(focus);
   };
+
+  document.body.style = "background: #121417;";
 
   return (
     <div className="site-container">
@@ -33,7 +34,7 @@ function App() {
         <div>
           <ProjectNav changeFocus={changeFocus} active={focusedProject} />
         </div>
-        <div></div>
+        <Selfpromo />
         {focusedProject === "goggles" && <Goggles />}
         {focusedProject === "story" && <Story />}
       </div>

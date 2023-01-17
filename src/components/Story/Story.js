@@ -9,11 +9,11 @@ const Story = () => {
       <h4>A web application that allows users to collaborate in real-time on storyboard projects</h4>
       <div>
         <a className="header-link" href="https://github.com/b-smolin/story_pages" target="_blank" rel="noreferrer">
-          Project GitHub
-        </a>{" "}
-        /{" "}
+          $PROJECT_GITHUB ↗
+        </a>
+        {" ┄ "}
         <a className="header-link" href="http://45.79.174.22:3000/" target="_blank" rel="noreferrer">
-          Live Demo
+          $LIVE_DEMO ↗
         </a>
       </div>
       <img className="picture-box" src={StoryHighlight} alt="storybored canvas example"></img>

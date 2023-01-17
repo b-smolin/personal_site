@@ -8,20 +8,20 @@ const Goggles = () => {
       <h4>Using Machine Learning to translate everyday experiences into informal learning opportunities</h4>
       <div>
         <a className="header-link" href="https://stevemacn.github.io/portfolio-expert-goggles/" target="_blank" rel="noreferrer">
-          Research Site
-        </a>{" "}
-        /{" "}
+          $RESEARCH_HOMEPAGE ↗
+        </a>
+        {" ┄ "}
         <a className="header-link" href="https://dl.acm.org/doi/abs/10.1145/3526114.3558627" target="_blank" rel="noreferrer">
-          UIST 2022 Publication
-        </a>{" "}
-        /{" "}
+          $UIST_2022_PUBLICATION ↗
+        </a>
+        {" ┄ "}
         <a
           className="header-link"
           href="https://github.com/Civic-Interactions-Lab/Expert-Goggles/tree/KNNClassifier"
           target="_blank"
           rel="noreferrer"
         >
-          Project GitHub
+          $PROJECT_GITHUB ↗
         </a>
       </div>
       <div className="video-responsive">
