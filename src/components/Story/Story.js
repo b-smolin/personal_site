@@ -1,12 +1,14 @@
 import React from "react";
 import StoryHighlight from "./tempstory.jpg";
-import "./story.css";
 
 const Story = () => {
   return (
-    <div className="story-info">
-      <h1>StoryPages</h1>
-      <h4>A web application that allows users to collaborate in real-time on storyboard projects</h4>
+    <div className="article">
+      <div>
+        Real-time, collaborative storyboarding software
+        <h1>StoryPages</h1>
+      </div>
+      {/* Badges React.js - Node.js - Synchronized and Networked Software - Agile Development  */}
       <div>
         <a className="header-link" href="https://github.com/b-smolin/story_pages" target="_blank" rel="noreferrer">
           $PROJECT_GITHUB ↗

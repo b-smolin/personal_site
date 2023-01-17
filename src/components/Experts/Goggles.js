@@ -1,11 +1,13 @@
 import React from "react";
-import "./goggles.css";
 
 const Goggles = () => {
   return (
-    <div className="expert-article">
-      <h1>Expert Goggles</h1>
-      <h4>Using Machine Learning to translate everyday experiences into informal learning opportunities</h4>
+    <div className="article">
+      <div>
+        Creating learning opportunities from everyday experiences with machine learning
+        <h1>Expert Goggles</h1>
+      </div>
+      {/*badges machine learning - web development - chrome extension - UI/HCI*/}
       <div>
         <a className="header-link" href="https://stevemacn.github.io/portfolio-expert-goggles/" target="_blank" rel="noreferrer">
           $RESEARCH_HOMEPAGE ↗

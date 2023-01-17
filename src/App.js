@@ -9,6 +9,9 @@ import ProjectNav from "./components/ProjectNav/ProjectNav";
 import Selfpromo from "./components/SelfPromo/selfpromo";
 
 //TODO:
+//add tech tags
+//improve link styling
+//improve side nav styling
 //improve copy
 //mobile friendly styling
 
@@ -30,11 +33,8 @@ function App() {
         <title>Ben Smolin's Work</title>
       </Helmet>
       <div className="display-box">
-        <PersonalInfo />
-        <div>
-          <ProjectNav changeFocus={changeFocus} active={focusedProject} />
-        </div>
-        <Selfpromo />
+        <ProjectNav changeFocus={changeFocus} active={focusedProject} />
+        {focusedProject === "home" && <Selfpromo />}
         {focusedProject === "goggles" && <Goggles />}
         {focusedProject === "story" && <Story />}
       </div>
