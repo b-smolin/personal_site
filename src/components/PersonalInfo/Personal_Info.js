@@ -2,9 +2,9 @@ import React from "react";
 import { useState } from "react";
 import { Popover } from "react-tiny-popover";
 import "./info.css";
-import Me from "./smol-green-16bit.png";
-import GitLogo from "./github-mark-white.png";
-import LiLogo from "./In-Blue-Logo.png";
+import Me from "../../images/smol-green-16bit.png";
+import GitLogo from "../../images/github-mark-white.png";
+import LiLogo from "../../images/In-Blue-Logo.png";
 
 const PersonalInfo = () => {
   const [showInfo, setShowInfo] = useState(false);

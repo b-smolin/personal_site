@@ -1,5 +1,5 @@
 import React from "react";
-import Me from "../PersonalInfo/smol-green-16bit.png";
+import Me from "../../images/smol-green-16bit.png";
 import ProjectButton from "../ProjectButton/ProjectButton";
 
 const ProjectNav = ({ changeFocus, active }) => {

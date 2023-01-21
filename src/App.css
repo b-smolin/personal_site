@@ -64,6 +64,12 @@ h1 {
   text-decoration: none;
 }
 
+.contact-link {
+  color: #00ff00;
+  font-family: "IBM Plex Mono Bold";
+  text-decoration: none;
+}
+
 .header-link:hover {
   cursor: pointer;
   color: #00ff73;
@@ -91,6 +97,18 @@ h1 {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+.badge-div {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+}
+
+.link-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 /* navigation button css */

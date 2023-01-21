@@ -1,24 +1,28 @@
 import React from "react";
 import StoryHighlight from "./tempstory.jpg";
+import Badges from "../badge/Badge";
 
 const Story = () => {
+  const badges = ["React.js", "Node.js", "Networking", "Agile Development"];
   return (
     <div className="article">
       <div>
         Real-time, collaborative storyboarding software
         <h1>StoryPages</h1>
       </div>
-      {/* Badges React.js - Node.js - Synchronized and Networked Software - Agile Development  */}
+      <Badges topics={badges} />
+      <div>
+        <img className="picture-box" src={StoryHighlight} alt="storybored canvas example"></img>
+      </div>
       <div>
         <a className="header-link" href="https://github.com/b-smolin/story_pages" target="_blank" rel="noreferrer">
-          $PROJECT_GITHUB ↗
+          PROJECT_GITHUB ↗
         </a>
-        {" ┄ "}
+        {" ─ "}
         <a className="header-link" href="http://45.79.174.22:3000/" target="_blank" rel="noreferrer">
-          $LIVE_DEMO ↗
+          LIVE_DEMO ↗
         </a>
       </div>
-      <img className="picture-box" src={StoryHighlight} alt="storybored canvas example"></img>
       <p>
         StoryPages is a fork of StoryBored, my project for the final class in the Computer Science program at Temple. It is a collaborative
         storyboarding application built with React and a node.js backend. It allows users to work in different rooms to draw on canvasses in

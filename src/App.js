@@ -16,7 +16,7 @@ import Selfpromo from "./components/SelfPromo/selfpromo";
 //mobile friendly styling
 
 function App() {
-  const [focusedProject, setFocusedProject] = useState("goggles");
+  const [focusedProject, setFocusedProject] = useState("home");
 
   const changeFocus = (focus) => {
     setFocusedProject(focus);

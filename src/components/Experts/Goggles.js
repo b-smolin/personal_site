@@ -1,33 +1,35 @@
 import React from "react";
+import Badges from "../badge/Badge";
 
 const Goggles = () => {
+  const badges = ["Machine Learning", "Web Development", "Chrome Extension", "UI/HCI"];
   return (
     <div className="article">
       <div>
         Creating learning opportunities from everyday experiences with machine learning
         <h1>Expert Goggles</h1>
       </div>
-      {/*badges machine learning - web development - chrome extension - UI/HCI*/}
+      <Badges topics={badges} />
+      <div className="video-responsive">
+        <iframe src="https://www.youtube.com/embed/e0zKAgUssOI" frameBorder="0" allowFullScreen title="Embedded youtube" />
+      </div>
       <div>
         <a className="header-link" href="https://stevemacn.github.io/portfolio-expert-goggles/" target="_blank" rel="noreferrer">
-          $RESEARCH_HOMEPAGE ↗
+          RESEARCH_HOMEPAGE ↗
         </a>
-        {" ┄ "}
+        {" ─ "}
         <a className="header-link" href="https://dl.acm.org/doi/abs/10.1145/3526114.3558627" target="_blank" rel="noreferrer">
-          $UIST_2022_PUBLICATION ↗
+          UIST_2022_PUBLICATION ↗
         </a>
-        {" ┄ "}
+        {" ─ "}
         <a
           className="header-link"
           href="https://github.com/Civic-Interactions-Lab/Expert-Goggles/tree/KNNClassifier"
           target="_blank"
           rel="noreferrer"
         >
-          $PROJECT_GITHUB ↗
+          PROJECT_GITHUB ↗
         </a>
-      </div>
-      <div className="video-responsive">
-        <iframe src="https://www.youtube.com/embed/e0zKAgUssOI" frameBorder="0" allowFullScreen title="Embedded youtube" />
       </div>
       <p>
         I was fortunate to be able to join Dr. Stephen MacNeil and the Temple HCI Lab to work on the Expert Goggles project, a Chrome extension that
