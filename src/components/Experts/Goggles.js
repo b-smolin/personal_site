@@ -37,7 +37,8 @@ const Goggles = () => {
         assist the team by training the KNN algorithm and adjusting its weights, reviewing and presenting relevant research papers, designing
         experiment plans and study designs, writing and editing papers for publication, and collaborating with other teams to improve our work and
         process. I'm proud of what we were able to accomplish. It was a great experience working at the intersection of computer science and design to
-        improve my risk mitigation and design argumentation skills.
+        improve my risk mitigation and design argumentation skills. Currently, we are designing an experiment and developing an app that will allow us
+        to measure the efficacy of different approaches in data literacy education within Expert Goggles.
       </p>
       <div>
         <h5>Cool things: </h5>
@@ -46,8 +47,11 @@ const Goggles = () => {
             Training our KNN model and iterating on weights until we achieved an accuracy comparable to complex neural network models. It was good
             enough to publish!
           </li>
-          <li>Getting to work with and learn from ungrads, graduate students, and professors working in different disciplines</li>
-          <li>Working on a challening problem with the ultimate goal of using computers to help people learn</li>
+          <li>Getting to work with and learn from ungrads, graduate students, and professors working in different disciplines.</li>
+          <li>
+            Working on a challening problem with the ultimate goal of using machine learning to help educate people is one of the coolest things you
+            can do with a conmputer to me.
+          </li>
         </ul>
       </div>
       <div>
@@ -61,6 +65,10 @@ const Goggles = () => {
           <li>
             Sometimes I just wanted to code something but it wasn't appropriate at the time. We had to carefully plan and iterate on program and study
             designs to make the best use of our limited time, but it could be hard to mock up a design and not try to create it.
+          </li>
+          <li>
+            Research is different from development. Sometimes we had to accept something working well enough to publish even if it wouldn't be a
+            useful consumer product.
           </li>
         </ul>
       </div>

@@ -23,7 +23,9 @@ const Selfpromo = () => {
       <Promocard
         name={"StoryPages"}
         title={"Project Leader"}
-        info={"A collaborative web application for drawing storyboards. Built with React.js and Node.js"}
+        info={
+          "A collaborative web application for drawing storyboards. Built with React.js and Node.js and supporting multiple canvasses. Live demo currently active!"
+        }
       />
 
       <p>

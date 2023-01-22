@@ -3,7 +3,7 @@ import React from "react";
 const Promocard = ({ name, title, info }) => {
   return (
     <div>
-      <span style={{ fontSize: "1.2em", fontWeight: "Bolder" }}>
+      <span style={{ fontSize: "1.4em", fontWeight: "Bolder" }}>
         {name} - {title}
       </span>
       <p>{info}</p>

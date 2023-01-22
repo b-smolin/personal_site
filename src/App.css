@@ -66,8 +66,16 @@ h1 {
 
 .contact-link {
   color: #00ff00;
+  font-size: 1.3em;
   font-family: "IBM Plex Mono Bold";
   text-decoration: none;
+}
+
+.contact-link:hover {
+  cursor: pointer;
+  color: #00ff73;
+  text-shadow: 0 0 7px #008f00, 0 0 10px #008f00;
+  transition: 0.2s ease;
 }
 
 .header-link:hover {
@@ -75,9 +83,7 @@ h1 {
   color: #00ff73;
   text-shadow: 0 0 7px #008f00, 0 0 10px #008f00;
   transition: 0.2s ease;
-  cursor: pointer;
 }
-
 /*article content css*/
 .picture-box {
   width: 100%;

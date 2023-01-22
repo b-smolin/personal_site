@@ -25,18 +25,19 @@ const Story = () => {
       </div>
       <p>
         StoryPages is a fork of StoryBored, my project for the final class in the Computer Science program at Temple. It is a collaborative
-        storyboarding application built with React and a node.js backend. It allows users to work in different rooms to draw on canvasses in
-        real-time. Users can see what other users in their room draw and interact with their objects as well. The program supports freeform shapes,
-        preset shapes, and text. Users can draw on up to three different frames and can see a small preview of the other frames as they are edited as
-        well. Most of my code contributions revolved around canvas synchronization, socket communication, and drawing tools, but I had at least small
-        contributions in almost every area.
+        storyboarding application built with React and a Node.js backend. Our goal was to create a web application that supported multiple people
+        working on designing storyboards together with minimal setup time. During development I served as project leader and was responsible for
+        sprint planning, progress reports, and It allows users to work in different rooms to draw on canvasses in real-time. Users can see what other
+        users in their room draw and interact with their objects as well. The program supports freeform shapes, preset shapes, and text. Users can
+        draw on up to three different frames and can see a small preview of the other frames as they are edited as well. Most of my code contributions
+        revolved around canvas synchronization, socket communication, and drawing tools, but I had at least small contributions in almost every area.
       </p>
       <div>
         <h5>Cool Things:</h5>
         <ul>
           <li>
             I served as Project Leader for this project and was responsible for planning the sprints based on previous velocity and project planning
-            in the form of research and UML documents
+            in the form of research and UML documents.
           </li>
           <li>
             It works pretty well for a school project! You can see people drawing and moving shapes in real-time so long as you have a stable internet
@@ -44,7 +45,11 @@ const Story = () => {
           </li>
           <li>
             This was my first time using pretty much all of this technology. I'm proud of the features we were able to implement with how little
-            experience we had
+            experience we had.
+          </li>
+          <li>
+            I learned a ton about deploying programs during this project. It felt really great to work on something that we could actually show off
+            asking the audience to hop in and participate.
           </li>
         </ul>
       </div>
@@ -61,7 +66,7 @@ const Story = () => {
           </li>
           <li>
             We never came up with a good way to handle different screen sizes. It looks decent on average screen sizes but isn't responsive and looks
-            bad on many devices.
+            bad on many devices. I'm not sure of the best way to address this, it's a bit of a tricky design decision.
           </li>
         </ul>
       </div>
